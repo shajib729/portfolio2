@@ -1,0 +1,43 @@
+@import "component";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+section,body{
+    overflow-x: hidden !important;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+    .preloader {
+        width: 100%;
+        height: 100vh !important;
+        background: #e5eff1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+@import "nav";
+@import "home";
+@import "services";
+@import "about";
+@import "projects";
+@import "testimonial";
+@import "plans";
+@import "contuct";
+@import "footer";

@@ -1,0 +1,22 @@
+@mixin button {
+    padding: 12px 20px;
+    background: #1998FF;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@mixin  h1 {
+        color: rgb(0, 0, 0);
+        font-size: 2.4em;
+
+        @media screen and (max-width:768px) {
+            font-size: 2em;
+        }
+}
+@mixin  h4 {
+        font-weight: 400;
+        font-size: 20px;
+}

@@ -1,0 +1,36 @@
+section#about{
+    margin-top: 50px;
+    padding: 100px 0;
+    h4{
+        @include h4;
+    }
+    h1{
+        @include h1;
+        margin: 20px 0;
+    }
+    p.small-dis{
+        font-size: 15px;
+        font-weight: 500;
+        color: #6c7293;
+        margin: 20px 0;
+    }
+    ul{
+        list-style: none;
+
+        li{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                display: inline-block;
+                height: 20px;
+            }
+            P{
+                display: inline-block;
+                font-size: 15px;
+                line-height: 24px;
+                color:#6c7293;
+                margin-left: 10px;
+            }
+        }
+    }
+}

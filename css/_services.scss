@@ -1,0 +1,23 @@
+section#services{
+
+    h4{
+        @include h4;
+    }
+    h1{
+        @include h1;
+    }
+    .service-item{
+        margin-top: 30px;
+        padding: 15px;
+
+        h5{
+            font-size: 18px;
+            font-weight: 500;
+            margin: 20px 0 10px 0;
+        }
+        p{
+            color: #6c7293;
+            font-size: 15px;
+        }
+    }
+}

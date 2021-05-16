@@ -1,0 +1,78 @@
+/*
+Error: Undefined mixin 'h1'.
+        on line 4 of E:\Documents\Web Design\Marshmallow website\css\projects.scss, in `h1'
+        from line 4 of E:\Documents\Web Design\Marshmallow website\css\projects.scss
+
+1: section#projects{
+2: 
+3:     h1{
+4:         @include h1;
+5: 
+6:     }
+7:     a.button{
+8:         @include button;
+9:         line-height: 55px;
+
+Backtrace:
+E:\Documents\Web Design\Marshmallow website\css\projects.scss:4:in `h1'
+E:\Documents\Web Design\Marshmallow website\css\projects.scss:4
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+E:/Apps/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+E:/Apps/koala/bin/sass:22:in `load'
+E:/Apps/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'h1'.\A         on line 4 of E:\Documents\Web Design\Marshmallow website\css\projects.scss, in `h1'\A         from line 4 of E:\Documents\Web Design\Marshmallow website\css\projects.scss\A \A 1: section#projects{\A 2: \A 3:     h1{\A 4:         @include h1;\A 5: \A 6:     }\A 7:     a.button{\A 8:         @include button;\A 9:         line-height: 55px;"; }

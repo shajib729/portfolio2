@@ -1,0 +1,72 @@
+section#projects{
+
+    h1{
+        @include h1;
+
+    }
+    a.button{
+        @include button;
+        line-height: 55px;
+        background: none;
+        border: 2px solid #7B37F1;
+        color: #7B37F1;
+        transition: .3s;
+
+        &:hover{
+            background: #3C37F1;
+            color: white;
+            border-color: #3C37F1;
+
+        }
+    }
+
+    .swiper-container{
+        margin: 50px 0;
+        width: 100%;
+        height: 450px;
+    
+        .swiper-wrapper{
+            display: flex;
+
+            .swiper-slide{
+                height: 370px;
+                width: 270px;
+                color: white;
+                background:black;
+                margin:0 20px;
+                box-sizing: border-box;
+                overflow: hidden !important;
+                border-radius: 10px;
+                margin-bottom: 30px;
+
+                img{
+                    max-height: 100%;
+                    transition: .5s;
+                    object-fit: cover !important;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+                }
+            }
+        }
+        .swiper-pagination{
+            bottom: 0;
+        }
+    }
+
+    .count-item{
+        margin: 20px 0;
+        h3{
+            font-size: 30px;
+            font-weight: 700;
+            margin: 0;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+
+    
+}
